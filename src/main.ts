@@ -15,7 +15,7 @@ const theBeatles = {
 };
 
 
-console.log(`%c ${theBeatles.nombre}`, title);
+console.log(`%c${theBeatles.nombre}`, title);
 // "color:red; font-size: 18px"
 
 const queen = {
@@ -25,7 +25,7 @@ const queen = {
     género: 'Rock',
 };
 
-console.log(`%c ${queen.nombre}`, title);
+console.log(`%c${queen.nombre}`, title);
 
 const acdc = {
     nombre: 'ACDC',
@@ -34,7 +34,7 @@ const acdc = {
     género: 'Hard Rock',
 };
 
-console.log(`%c ${acdc.nombre}`, title);
+console.log(`%c${acdc.nombre}`, title);
 
 const beethoven = {
     nombre: 'Ludwig van Beethoven',
@@ -43,7 +43,7 @@ const beethoven = {
     género: 'Classic',
 };
 
-console.log(`%c ${beethoven.nombre}`, title);
+console.log(`%c${beethoven.nombre}`, title);
 
 const theRollingStones = {
     nombre: 'the Rolling Stones',
@@ -52,7 +52,7 @@ const theRollingStones = {
     género: 'Rock',
 };
 
-console.log(`%c ${theRollingStones.nombre}`, title);
+console.log(`%c${theRollingStones.nombre}`, title);
 
 let popRock = [theBeatles];
 let rock = [queen, theRollingStones];
